@@ -1,10 +1,10 @@
 package Murex;
 
-#$LastChangedDate: 2005-02-12 10:26:24 +0000 (Sat, 12 Feb 2005) $
-#$LastChangedRevision: 7 $
+#$LastChangedDate: 2005-02-12 10:37:06 +0000 (Sat, 12 Feb 2005) $
+#$LastChangedRevision: 8 $
 
-#$Id: Murex.pm 7 2005-02-12 10:26:24Z root $
-$VERSION = "0.".sprintf("%0.5f",0+((qw$LastChangedRevision: 7 $)[-1])/100000);
+#$Id: Murex.pm 8 2005-02-12 10:37:06Z root $
+$VERSION = "0.".sprintf("%0.5f",0+((qw$LastChangedRevision: 8 $)[-1])/100000);
 
 use 5.008006;
 use strict;
@@ -63,10 +63,13 @@ This module expects a log.conf file to exist. This file contains the Log4Perl Co
 =head1 SEE ALSO
 
    Visit the Murex User Group at http://www.linke.de/consulting/murex/usergroup
+   To submit a bug send an email to murex-rt@it-projects.com
+   To join the Murex Mailing List send an email to murex-l-subscribe-request@it-projects.com
+   Visit the author's website at http://www.linke.de
 
 =head1 AUTHOR
 
-   Markus Linke, E<lt>markus.linke@linke.deE<gt>.
+   Markus Linke, markus.linke@linke.de
 
 =head1 COPYRIGHT AND LICENSE
 
