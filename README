@@ -1,0 +1,30 @@
+ABSTRACT
+    Module to automate Murex MxG2000 Environments
+
+SYNOPSIS
+    use Murex
+
+DESCRIPTION
+    Module to automate Murex MxG2000 Environments. The first released module
+    is Murex::Base, Murex.pm itself is not available yet.
+
+  EXPORT
+    None by default.
+
+  LOGGING
+    This module expects a log.conf file to exist. This file contains the
+    Log4Perl Configuration.
+
+SEE ALSO
+       Visit the Murex User Group at http://www.linke.de/consulting/murex/usergroup
+
+AUTHOR
+       Markus Linke, E<lt>markus.linke@linke.deE<gt>.
+
+COPYRIGHT AND LICENSE
+       Copyright 2005 by Markus Linke. All rights reserved.
+       NO commercial use without authors written permission!
+
+AMENDMENT HISTORY
+    Please see Changes file.
+

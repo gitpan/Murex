@@ -1,0 +1,13 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+README.html
+t/1.t
+t/2.t
+t/3.t
+lib/Murex/Base.pm
+lib/Murex.pm
+samples/1.pl
+log.conf
+META.yml                                 Module meta-data (added by MakeMaker)
