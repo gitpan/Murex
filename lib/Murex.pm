@@ -1,10 +1,10 @@
 package Murex;
 
-#$LastChangedDate: 2005-02-12 10:37:06 +0000 (Sat, 12 Feb 2005) $
-#$LastChangedRevision: 8 $
+#$LastChangedDate: 2006-02-19 16:45:27 +0000 (Sun, 19 Feb 2006) $
+#$LastChangedRevision: 27 $
 
-#$Id: Murex.pm 8 2005-02-12 10:37:06Z root $
-$VERSION = "0.".sprintf("%0.5f",0+((qw$LastChangedRevision: 8 $)[-1])/100000);
+#$Id: Murex.pm 27 2006-02-19 16:45:27Z linmar $
+$VERSION = "0.".sprintf("%0.5f",0+((qw$LastChangedRevision: 27 $)[-1])/100000);
 
 use 5.008006;
 use strict;
@@ -41,7 +41,7 @@ Murex
 
 =head1 ABSTRACT
 
-Module to automate Murex MxG2000 Environments
+Module to automate Murex Mx G2000 and Mx.3 environments
 
 =head1 SYNOPSIS
 
@@ -49,7 +49,7 @@ use Murex
 
 =head1 DESCRIPTION
 
-Module to automate Murex MxG2000 Environments. The first released module
+Module to automate Murex Mx G2000 and Mx.3 environments. The first released module
 is Murex::Base, Murex.pm itself is not available yet.
 
 =head2 EXPORT
@@ -62,8 +62,8 @@ This module expects a log.conf file to exist. This file contains the Log4Perl Co
 
 =head1 SEE ALSO
 
-   Visit the Murex User Group at http://www.linke.de/consulting/murex/usergroup
-   To submit a bug send an email to murex-rt@it-projects.com
+   Visit the Murex User Group at http://murex.it-projects.com
+   To submit a bug send an email to rt@linke.de
    To join the Murex Mailing List send an email to murex-l-subscribe-request@it-projects.com
    Visit the author's website at http://www.linke.de
 
@@ -73,7 +73,7 @@ This module expects a log.conf file to exist. This file contains the Log4Perl Co
 
 =head1 COPYRIGHT AND LICENSE
 
-   Copyright 2005 by Markus Linke. All rights reserved.
+   Copyright 2005, 2006 by Markus Linke. All rights reserved.
    NO commercial use without authors written permission!
 
 =head1 AMENDMENT HISTORY
