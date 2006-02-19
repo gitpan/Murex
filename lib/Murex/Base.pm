@@ -4,7 +4,7 @@ Murex::Base
 
 =head1 ABSTRACT
 
-Module to handle Murex MxG2000 Configurations
+Module to handle Murex Mx G2000 and Mx.3 Configurations
 
 =head1 SYNOPSIS
 
@@ -12,7 +12,7 @@ use Murex::Base
 
 =head1 DESCRIPTION
 
-Module to handle Murex MxG2000 Configurations
+Module to handle Murex Mx G2000 and Mx.3 Configurations
 
 =head2 EXPORT
 
@@ -22,7 +22,7 @@ None by default.
 
 
 package Murex::Base;
-$VERSION=0.08;
+$VERSION = "".sprintf("%0.3f",0+((qw$LastChangedRevision: 32 $)[-1])/1000);
 
 use strict;
 use warnings;
@@ -310,15 +310,15 @@ sub _readfile_xml {
 
 =head1 SEE ALSO
 
-   Visit the Murex User Group at http://www.linke.de/consulting/murex/usergroup
+   Visit the Murex User Group at http://murex.it-projects.com
 
 =head1 AUTHOR
 
-   Markus Linke, E<lt>markus.linke@linke.deE<gt>.
+   Markus Linke, markus.linke@linke.de, http://www.linke.de
 
 =head1 COPYRIGHT AND LICENSE
 
-   Copyright 2005 by Markus Linke. All rights reserved.
+   Copyright 2005, 2006 by Markus Linke. All rights reserved.
    NO commercial use without authors written permission!
 
 =head1 AMENDMENT HISTORY
