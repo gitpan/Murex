@@ -1,5 +1,11 @@
 #!/usr/bin/perl
 
+#$LastChangedDate: 2006-02-20 20:42:42 +0000 (Mon, 20 Feb 2006) $
+#$LastChangedRevision: 39 $
+
+#$Id: cgiencrypt.pl 39 2006-02-20 20:42:42Z linmar $
+$VERSION = "".sprintf("%0.3f",0+((qw$LastChangedRevision: 39 $)[-1])/1000);
+
 use strict;
 use warnings;
 use CGI qw(:standard);;
@@ -14,7 +20,7 @@ print start_html('Murex Password Encryption'),
     hr;
 
 if (param()) {
-    my $passwd=param('password');
+    my $passwd=uc(param('password'));
     print "Encrypt \"$passwd\"=\"".___encrypt_murex_password($passwd)."\"\n";
 }
 print hr,

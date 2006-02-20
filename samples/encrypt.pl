@@ -1,9 +1,15 @@
 #!/usr/bin/perl
 
+#$LastChangedDate:2006-02-20 20:39:21 +0000 (Mon, 20 Feb 2006) $
+#$LastChangedRevision:38 $
+
+#$Id:encrypt.pl 38 2006-02-20 20:39:21 +0000 (Mon, 20 Feb 2006) linmar $
+$VERSION = "".sprintf("%0.3f",0+((qw$LastChangedRevision:38 $)[-1])/1000);
+
 use strict;
 use warnings;
 
-my $passwd=$ARGV[0];
+my $passwd=uc($ARGV[0]);
 print "Encrypt \"$passwd\"=\"".___encrypt_murex_password($passwd)."\"\n";
 
 
