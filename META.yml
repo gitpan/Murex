@@ -1,16 +1,22 @@
 # http://module-build.sourceforge.net/META-spec.html
 #XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
 name:         Murex
-version:      0.032
+version:      0.035
 version_from: lib/Murex.pm
 installdirs:  site
 requires:
-    Data::Dumper::Simple:          Log::Dispatch
-    English:                       Template
-    Hash::Merge:                   Digest::MD5
-    Log::Dispatch::FileRotate:     Log::Log4perl
-    Mail::Sendmail:                Log::Dispatch::Email
-    XML::Simple:                   Crypt::RC6
+    Crypt::RC6:                    0.01
+    Data::Dumper::Simple:          0.01
+    Digest::MD5:                   0.01
+    English:                       0.01
+    Hash::Merge:                   0.01
+    Log::Dispatch:                 0.01
+    Log::Dispatch::Email:          0.01
+    Log::Dispatch::FileRotate:     0.01
+    Log::Log4perl:                 0.01
+    Mail::Sendmail:                0.01
+    Template:                      0.01
+    XML::Simple:                   0.01
 
 distribution_type: module
 generated_by: ExtUtils::MakeMaker version 6.17
