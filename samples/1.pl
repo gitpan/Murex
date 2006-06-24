@@ -2,7 +2,7 @@
 
 use strict;
 use warnings;
-use Murex::Base
+use Murex::Base;
 use Data::Dumper::Simple;
 
 # Initialize Logging -----------------------------------

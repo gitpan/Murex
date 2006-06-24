@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-#$LastChangedDate: 2006-02-20 20:42:42 +0000 (Mon, 20 Feb 2006) $
+#$LastChangedDate: 2006-02-20 14:42:42 -0600 (Mon, 20 Feb 2006) $
 #$LastChangedRevision: 39 $
 
 #$Id: cgiencrypt.pl 39 2006-02-20 20:42:42Z linmar $

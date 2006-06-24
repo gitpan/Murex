@@ -22,7 +22,7 @@ None by default.
 
 
 package Murex::Base;
-$VERSION = "".sprintf("%0.3f",0+((qw$LastChangedRevision: 32 $)[-1])/1000);
+$VERSION = "".sprintf("%0.3f",0+((qw$LastChangedRevision: 120 $)[-1])/1000);
 
 use strict;
 use warnings;
@@ -311,6 +311,9 @@ sub _readfile_xml {
 =head1 SEE ALSO
 
    Visit the Murex User Group at http://murex.it-projects.com
+   Please submit bugs via Bugzilla at http://bugzilla.linke.de
+   To join the Murex Mailing List send an email to murex-l-subscribe-request@linke.de
+   Visit the author's website at http://www.linke.de
 
 =head1 AUTHOR
 

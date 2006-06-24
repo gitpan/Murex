@@ -1,7 +1,7 @@
 use 5.008003;
 use ExtUtils::MakeMaker;
 
-#$LastChangedDate: 2006-02-20 20:04:22 +0000 (Mon, 20 Feb 2006) $
+#$LastChangedDate: 2006-02-20 14:04:22 -0600 (Mon, 20 Feb 2006) $
 #$LastChangedRevision: 34 $
 
 #$Id: Makefile.PL 34 2006-02-20 20:04:22Z linmar $
