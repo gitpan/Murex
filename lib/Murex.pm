@@ -1,10 +1,10 @@
 package Murex;
 
 #$LastChangedDate: 2006-06-24 10:11:05 -0500 (Sat, 24 Jun 2006) $
-#$LastChangedRevision: 120 $
+#$LastChangedRevision: 121 $
 
-#$Id: Murex.pm 120 2006-06-24 15:11:05Z linmar $
-$VERSION = "".sprintf("%0.3f",0+((qw$LastChangedRevision: 120 $)[-1])/1000);
+#$Id: Murex.pm 121 2007-07-25 15:11:05Z linmar $
+$VERSION = "0.121"; #.sprintf("%0.3f",0+((qw$LastChangedRevision: 121 $)[-1])/1000);
 
 use 5.008006;
 use strict;

@@ -10,9 +10,7 @@ lib/Murex/Base.pm
 lib/Murex.pm
 samples/1.pl
 samples/encrypt.pl
-samples/decrypt.pl
 samples/cgiencrypt.pl
-samples/cgidecrypt.pl
 contrib/passwordgenerator.pl
 log.conf
 META.yml                                 Module meta-data (added by MakeMaker)
